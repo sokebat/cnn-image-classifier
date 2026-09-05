@@ -11,12 +11,15 @@ venv/
 .env
 .env.*
 
-# Dataset images
+# Dataset images (keep report figures)
 data/**/*.jpg
 data/**/*.jpeg
 data/**/*.png
 data/**/*.webp
 data/**/*.bmp
+
+# EDA figures — commit these so they show on GitHub
+!reports/figures/*.png
 
 # Model artifacts
 models/*
