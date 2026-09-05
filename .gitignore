@@ -4,29 +4,23 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+.ipynb_checkpoints/
 
 # Environments
 venv/
 .env
 .env.*
 
-# Data and artifacts
-data/raw/*
-data/interim/*
-data/processed/*
-data/external/*
-models/*
-logs/*
-reports/figures/*
+# Dataset images
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.webp
+data/**/*.bmp
 
-# Keep folder structure
-!data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
-!data/external/.gitkeep
+# Model artifacts
+models/*
 !models/.gitkeep
-!logs/.gitkeep
-!reports/figures/.gitkeep
 
 # OS
 .DS_Store
